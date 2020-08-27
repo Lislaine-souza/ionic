@@ -1,0 +1,7 @@
+Politica de privacidade 
+Get-ExecutionPolicy
+Set-ExecutionPolicy Unrestricted
+
+npm install -g @angular/cli
+npm install -g @ionic/cli
+ionic start
