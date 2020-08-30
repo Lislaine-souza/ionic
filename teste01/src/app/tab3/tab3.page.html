@@ -1,17 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Lixeira
+     Hora e Data
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Vazia"></app-explore-container>
+<ion-content>
+  <ion-card color="primary" class="ion-padding">
+    <ion-label>HORA</ion-label>
+    <ion-item>
+      <ion-label></ion-label>
+      <ion-datetime  [(ngModel)]="hora" displayFormat="HH:mm"></ion-datetime>
+    </ion-item>
+  </ion-card>
+  <ion-card color="secondary" class="ion-padding">
+    <ion-label>DATA</ion-label>
+    <ion-item>
+      <ion-label position="end"></ion-label>
+      <ion-datetime [(ngModel)]="data" displayFormat="DD/MM/YYYY" ></ion-datetime>
+    </ion-item>
+  </ion-card>
 </ion-content>
