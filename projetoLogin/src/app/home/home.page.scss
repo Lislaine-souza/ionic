@@ -1,0 +1,36 @@
+
+ion-content {
+  --background: url('../../assets/pantera.jpg') no-repeat !important;
+}
+ion-input {
+  border: solid 1px rgb(5, 1, 1);
+  --background: #fff;
+  border-radius: 5px;
+}
+
+
+//class se chama com ponto na frente
+
+.content{
+  position: fixed;
+  margin-top: 31px;
+  margin-left: 5px;
+
+}
+
+.button-action{
+  margin-left: 5px;
+}
+
+.entrar{
+  font-size: small;
+  color: azure;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+
