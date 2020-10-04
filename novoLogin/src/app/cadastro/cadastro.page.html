@@ -1,0 +1,25 @@
+
+<ion-content class="background">
+  <ion-header>
+    <ion-back-button defaultHref="/home"></ion-back-button>
+  </ion-header>
+
+  <div class="content">
+
+    <ion-title style="text-align: center; margin-top: 25px;">
+      <img class="logo" src="../../assets/pale-deal-1.png">
+    </ion-title>
+
+
+    <div class="ion-padding">
+      <ion-input placeholder="Nome"></ion-input><br>
+      <ion-input placeholder="E-mail"></ion-input><br>
+      <ion-input type="password"  placeholder="Senha"></ion-input><br>
+      <ion-input type="password"  placeholder="Confirmar a Senha"></ion-input>
+    </div>
+    
+    <ion-button (click)="entrar()" expand="block" fill="outline" class="button" style="text-transform:none"><b>CADASTRAR</b></ion-button>
+
+  </div>
+  
+</ion-content>

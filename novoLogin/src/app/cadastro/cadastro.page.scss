@@ -1,0 +1,39 @@
+
+
+.novaLine {
+    background: #dd0aa8;
+    /* border: solid 1px; */
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+  }
+  
+  ion-input {
+    background-color: rgb(116, 113, 113);
+    border: solid 1px;
+    border-radius: 5px;
+  }
+    
+  ion-content {
+    --background: url('../../assets/fundo.jpg') no-repeat !important;
+   
+  }
+    
+  .logo{
+    width: 116px;
+  }
+  
+  .icone{
+    width: 30px;
+    margin: 10px;
+  }
+
+  .button{
+    color: #ffffff;
+    margin: 20px;
+  }  
+  
+  .ion-padding{
+      
+  }

@@ -1,19 +1,24 @@
 
-.novaLine1 {
-  width:auto;
-  height:2px;
-  background:#dd0aa8;
-  margin: auto;
-}
+
 .novaLine {
-  width:auto;
-  height:2px;
-  background:#dd0aa8;
-  margin: auto;
+  background: #dd0aa8;
+  /* border: solid 1px; */
+  height: 2px;
+  margin: 0;
+  padding: 0;
+  margin-top: 13px;
+}
+
+ion-input {
+  background-color: rgb(116, 113, 113);
+  border: solid 1px;
+  border-radius: 5px;
+  
 }
 
 .button{
   color: #ffffff;
+
 }
 
 ion-content {
@@ -22,6 +27,21 @@ ion-content {
 
 ion-checkbox {
   color: #dd0aa8;
+
+}
+
+.logo{
+  width: 116px;
+}
+
+.icone{
+  width: 30px;
+  margin: 10px;
+}
+
+.row-icone{
+  display: flex;
+  justify-content: center;
 
 }
 
